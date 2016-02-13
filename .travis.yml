@@ -1,3 +1,1 @@
-# .travis.yml
-check:
-	php:true
+language:php
