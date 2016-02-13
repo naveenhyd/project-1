@@ -1,0 +1,3 @@
+# .scrutinizer.yml
+check : 
+	php: true
