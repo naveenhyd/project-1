@@ -1,3 +1,4 @@
-# .scrutinizer.yml
-check : 
-	php: true
+checks:
+    php:
+        code_rating: true
+        duplication: true
