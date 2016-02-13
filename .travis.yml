@@ -5,3 +5,7 @@ php:
   - '5.6'
   - '7.0'
 install: php vendor/autoload.php
+notifications:
+	slack:
+	on_success:never
+	on_failure:never
