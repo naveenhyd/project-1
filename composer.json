@@ -1,0 +1,12 @@
+{
+    "name": "Project1",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Naveen"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.2.*"
+    }
+}
