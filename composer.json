@@ -10,8 +10,8 @@
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
-        "classmap": [
-            "app/libraries"
-        ]
+        "psr-4": {
+            "App\\": "app"
+        }
     }
 }
