@@ -7,12 +7,10 @@
  */
 require_once 'vendor/autoload.php';
 
-use App\Libraries\Calculator;
-
 class CalculatorTest extends PHPUnit_Framework_TestCase {
 
     public function setUp() {
-        $this->calculator = new Calculator;
+        $this->calculator = new App\Libraries\Calculator();
     }
 
     public function inputNumbers() {
