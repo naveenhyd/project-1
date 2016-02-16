@@ -5,12 +5,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+namespace Test;
+
 require_once 'vendor/autoload.php';
 
-class CalculatorTest extends PHPUnit_Framework_TestCase {
+class CalculatorTest extends \PHPUnit_Framework_TestCase {
 
     public function setUp() {
-        $this->calculator = new App\Libraries\Calculator();
+        $this->calculator = new \App\Libraries\Calculator();
     }
 
     public function inputNumbers() {
