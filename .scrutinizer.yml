@@ -4,7 +4,6 @@ checks:
         duplication: true
 filter:
     excluded_paths:
-        - 'test/*'
         - 'vendor/*'
 coding_style:
     php: {  }
