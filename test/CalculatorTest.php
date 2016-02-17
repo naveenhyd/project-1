@@ -13,7 +13,7 @@ require_once 'vendor/autoload.php';
 class CalculatorTest extends \PHPUnit_Framework_TestCase {
 
     public function setUp() {
-        $this->calculator = new \App\Libraries\Calculator();
+        $this->calculator = new \App\libraries\Calculator();
     }
 
     public function inputNumbers() {
