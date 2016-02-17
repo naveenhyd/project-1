@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace App\Libraries;
+namespace App\libraries;
 
 class Calculator {
 
